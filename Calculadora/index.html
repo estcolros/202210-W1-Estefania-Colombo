@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora HTML - ISDI CODERS</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id='mainCalculator'>
+    <div id='display'>0</div>
+    <div class='buttonsCalculator'>
+        <div class='firstLine'>
+            <button class='otherButtonOpertators' id='clearCalculator'>AC</button>
+            <button class='otherButtonOpertators' id='signCalculator' onclick='operation("+/-")'>+/-</button>
+            <button class='otherButtonOpertators' id='operationOpp' onclick='operation("%")'>%</button>
+            <button class='operationsButton' id='operationDiv' onclick='operation("/")'>÷</button>
+          </div>
+        <div class='secondLine'>
+            <button class='otherButton' onclick='input("7")'>7</button>
+            <button class='otherButton' onclick='input("8")'>8</button>
+            <button class='otherButton' onclick='input("9")'>9</button>
+            <button class='operationsButton' id='operationMulti' onclick='operation("x")'>x</button>
+        </div>
+        <div class='thirdLine'>
+            <button class='otherButton' onclick='input("4")'>4</button>
+            <button class='otherButton' onclick='input("5")'>5</button>
+            <button class='otherButton' onclick='input("6")'>6</button>
+            <button class='operationsButton' id='operationRest' onclick='operation("-")'>-</button>
+        </div>
+        <div class='fourthLine'>
+            <button class='otherButton' onclick='input("1")'>1</button>
+            <button class='otherButton' onclick='input("2")'>2</button>
+            <button class='otherButton' onclick='input("3")'>3</button>
+            <button class='operationsButton' id='operationSum' onclick='operation("+")'>+</button>
+        </div>
+        <div class='fifthLine'>
+            <button class='otherButton' onclick='input("0")'>0</button>
+            <button class='otherButton' id='decimalNumber' onclick='input(",")'>,</button>
+            <button class='operationsButton' id='resultCalculator' onclick='operation("=")'>=</button>
+        </div>
+    </div>
+  <script src="main.js"></script>
+</body>
+</html>
