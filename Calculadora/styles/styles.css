@@ -1,0 +1,162 @@
+*{
+  font-family: 'Poppins', monospace, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+#mainCalculator{
+  background-color: #000000;
+  border: 8px solid #000000;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 400px;
+  height: 630px; 
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(151, 151, 151);
+}
+
+#display{
+  height: 50px;
+  width: 360px;
+  color: white;
+  background-color: #000000;
+  border-radius: 15px 15px 0px 0px;
+  padding-right: 20px;
+  padding-top: 62px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  text-align: right;
+  font-size: 65px;
+  overflow: hidden;
+}
+
+.firstLine{
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+.firstLine button{
+  border: 1px solid #000000;
+  width: 400px;
+  line-height: 90px;
+  font-size: 35px;
+}
+
+.secondLine{
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+.secondLine button{
+  border: 1px solid #000000;
+  width: 400px;
+  line-height: 90px;
+  font-size: 35px;
+}
+
+.thirdLine{
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+}
+
+.thirdLine button{
+  border: 1px solid #000000;
+  width: 400px;
+  line-height: 90px;
+  font-size: 35px;
+}
+
+.fourthLine{
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+}
+.fourthLine button{
+  border: 1px solid #000000;
+  width: 400px;
+  line-height: 90px;
+  font-size: 35px;
+  
+}
+
+.fifthLine{
+  display: flex  ;
+  border-radius: 50px 50px 50px 50px;
+  align-items: center;
+  background-color: #000000;
+}
+
+.fifthLine button{
+  border: 1px solid #000000;
+  width: 500px;
+  line-height: 90px;
+  font-size: 35px;
+}
+
+.fifthLine button:first-child{
+  flex: 2;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.fifthLine button:not(:first-child){
+  flex: 1;
+}
+.fifthLine button:last-child{
+  border-radius:50px;
+
+}
+
+.buttonsCalculator{
+  background-color: #000000;
+  height: 400px;
+  width: 400px;
+  text-align: center;
+}
+
+.otherButton{
+  border-radius:50px;
+  border: 1px solid #000000;
+  background-color: #3e3d3d;
+  color: #fffefe;
+}
+
+.otherButton:hover{
+  border-radius:50px;
+  border: 1px solid #000000;
+  background-color: #5c5b5b;
+}
+
+.otherButtonOpertators{
+  border-radius:50px;
+  background-color: #9d9b9b;
+  border: 1px solid #000000;
+  color: #000000;
+}
+
+.otherButtonOpertators:hover{
+  border-radius:50px;
+  border: 1px solid #000000;
+  background-color: #cac7c7;
+}
+
+.operationsButton{
+  border-radius:50px;
+  background-color: #fb8608;
+  border: 1px solid #000000;
+  color: white;
+  flex-grow: 1;
+}
+
+.operationsButton:hover{
+  border-radius:50px;
+  background-color: #fa9830;
+  border: 1px solid #000000;
+  color: white;
+  flex-grow: 1;
+}
+
+
