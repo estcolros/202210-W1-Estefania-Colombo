@@ -1,4 +1,4 @@
-![banner-libros](https://i.ytimg.com/vi/gOBoYDJGR28/maxresdefault.jpg)
+![banner-libros](https://cdn.codecoda.com/images/made/images/breadcrumb/git-and-github-banner_1543_592_40.jpg)
 
 # Challenge week 1
 
@@ -15,5 +15,5 @@
 ### Netlify
 
 ```
-Deploy:
+Deploy: https://estcolros.netlify.app/
 ```
