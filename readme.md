@@ -14,6 +14,4 @@
 
 ### Netlify
 
-```
-Deploy: https://estcolros.netlify.app/
-```
+**Deploy:** https://estcolros.netlify.app/
