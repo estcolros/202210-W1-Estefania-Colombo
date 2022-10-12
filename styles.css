@@ -1,0 +1,51 @@
+* {
+    font-family: 'Amatic SC', cursive;
+    color: rgb(0, 0, 0);
+}
+body {
+    background: #fffeae;
+}
+header {
+    text-align: center;
+    margin: 30px;
+    font-size: 4em;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline dotted rgb(0, 0, 0);
+    font-size: 3em;
+    margin: 20px;
+}
+nav {
+    margin: 70px;
+}
+div {
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
+a {
+    color: rgb(0, 0, 0);
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.5em;
+    margin: 10px;
+}
+a:hover {
+    color: rgb(255, 123, 0);
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.5em;
+    margin: 10px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
